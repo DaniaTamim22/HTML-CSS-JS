@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="info.html" method="get">
+
+        <div> <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName">
+        </div>
+
+        <div> <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName">
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div>
+            <label for="birthDate">Birth Date</label>
+            <input type="date" id="birthDate" name="birthDate">
+        </div>
+
+        <div>
+            <input type="radio" id="gender" name="gender" value="male">
+            <label for="male">Male</label>
+        </div>
+        <div>
+            <input type="radio" id="gender" name="gender" value="female">
+            <label for="Femle">Female</label>
+        </div>
+
+        <div>
+            <label for="role">Role</label>
+            <select name="role" id="role">
+                <option value=""></option>
+                <option value="admin">Admin</option>
+                <option value="user">User</option>
+                <option value="annat">annat</option>
+
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" id="news" name="news" checked>
+            <label for="news">I want to subscribe to newsletter</label>
+        </div>
+        <div>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I have read and agree to the terms</label>
+        </div>
+        <br>
+        <br>
+        <button>submit</button>
+    </form>
+</body>
+
+</html>
