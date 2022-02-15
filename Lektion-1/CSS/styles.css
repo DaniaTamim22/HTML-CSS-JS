@@ -1,0 +1,19 @@
+h2 {
+	color: #00f;
+}
+
+p {
+	color: blue;
+}
+
+small {
+	color: rgb(148, 63, 27);
+}
+
+.post {
+	background-color: #cdcdec;
+}
+
+div {
+	background-color: pink;
+}
