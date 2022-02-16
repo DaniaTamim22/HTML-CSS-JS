@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.flex-container {
+	margin: 2rem auto;
+	display: flex;
+	flex-direction: column;
+	background-color: cornflowerblue;
+	width: 65%;
+	height: auto;
+	text-align: center;
+	/* justify-content: space-around; */
+	/* justify-items: ; */
+}
+
+.rubrik {
+	text-align: center;
+}
