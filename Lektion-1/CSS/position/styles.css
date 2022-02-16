@@ -3,10 +3,48 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html {
+	scroll-behavior: smooth;
+}
+
 nav {
 	background-color: aqua;
 	padding: 1rem;
 
 	position: fixed;
 	width: 100%;
+	top: 0;
+	z-index: 9999;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.squar {
+	border: 1px solid #222;
+	height: 400px;
+	margin-top: 7rem;
+	position: relative;
+}
+
+.ball {
+	width: 50px;
+	aspect-ratio: 1;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+}
+
+.btn {
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	padding: 0.5rem;
+	position: fixed;
+	top: 70%;
+	right: 0;
 }
