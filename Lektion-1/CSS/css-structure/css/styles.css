@@ -38,3 +38,32 @@ body {
 	box-sizing: border-box;
 	border: 5px dashed blue;
 }
+
+.card-3 {
+	border: 3px dashed #222;
+	margin-top: 2rem;
+	margin-left: 1rem;
+}
+.card-3 ul {
+	list-style: none;
+}
+.card-3 a {
+	text-decoration: none;
+	color: #222;
+}
+.card-3 a:hover {
+	color: green;
+}
+.card-3 li:nth-child(odd) {
+	background-color: rgb(122, 129, 236);
+}
+.links {
+	margin-top: 2rem;
+}
+.link {
+	border: 1px solid #444;
+	width: 300px;
+	height: 50px;
+	margin-top: 1rem;
+	display: inline-block;
+}
