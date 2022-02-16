@@ -16,4 +16,25 @@ body {
 .card-1 {
 	background-color: #222;
 	color: #fff;
+
+	width: 300px;
+	padding: 20px;
+	border: 5px solid blue;
+
+	box-sizing: border-box;
+	font-size: 3rem;
+}
+.card-1 h2 {
+	font-size: 2rem;
+}
+.card-1 p {
+	font-size: 1rem;
+}
+.card-2 {
+	border: 1px solid #222;
+	margin-top: 2rem;
+	background-color: #222;
+	color: #fff;
+	box-sizing: border-box;
+	border: 5px dashed blue;
 }
