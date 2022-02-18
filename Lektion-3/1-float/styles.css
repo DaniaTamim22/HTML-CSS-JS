@@ -9,6 +9,27 @@
 	width: 33.33%;
 	float: left;
 }
+
+.clr {
+	clear: both;
+}
 .main {
 	border: 1px solid black;
+	width: 70%;
+	padding: 3rem, 1rem;
+	float: left;
+}
+section-2 {
+	margin-top: 2rem;
+}
+
+aside {
+	background-color: #222;
+	color: #fff;
+	width: 30%;
+	float: right;
+}
+li {
+	list-style-type: none;
+	padding: 1rem, 3rem;
 }
