@@ -1,0 +1,15 @@
+.grid-wrappar div {
+	background-color: rgb(193, 168, 216);
+	padding: 1rem;
+}
+.grid-wrappar div:nth-child(odd) {
+	background-color: rgb(201, 186, 214);
+}
+
+.grid-wrappar {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+
+	grid-auto-rows: minmax(100px, auto);
+}
