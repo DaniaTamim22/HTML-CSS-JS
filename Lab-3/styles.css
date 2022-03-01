@@ -3,3 +3,31 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.container .nav-links {
+	background-color: rgb(54, 200, 211);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.link-item {
+	list-style: none;
+}
+
+.grid {
+	margin-top: 2rem;
+	display: grid;
+	align-content: center;
+	gap: 1rem;
+	/* align-items: center; */
+}
+
+.card {
+	background-color: powderblue;
+	border: 1px solid #333;
+	box-shadow: 3px #333;
+	width: 80%;
+	padding: 1rem;
+}
+.card:nth-child(odd) {
+	background-color: rgb(49, 208, 230);
+}
