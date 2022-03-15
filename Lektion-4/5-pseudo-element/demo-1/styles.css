@@ -1,0 +1,20 @@
+body {
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+h1:hover {
+	color: blueviolet;
+}
+
+h1::before {
+	content: 'före';
+	color: #fff;
+	background-color: red;
+}
+
+h1::after {
+	content: 'after';
+	color: #fff;
+	background-color: blue;
+}
