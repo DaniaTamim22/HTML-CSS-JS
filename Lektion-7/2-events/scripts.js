@@ -28,3 +28,11 @@ firstName.addEventListener('focus',e=>{
 firstName.addEventListener('blur',e=>{
     firstName.classList.remove('focus-red')
 })
+
+
+loginForm.addEventListener('submit',e => {
+    e.preventDefault()
+    if(firstName.value.trim() === '')
+    return;
+    console.log(firstName.value)
+})
