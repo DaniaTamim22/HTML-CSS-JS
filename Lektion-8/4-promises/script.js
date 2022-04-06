@@ -1,4 +1,20 @@
 
+const doSomthing = (value) => {
+    return new Promise((resolve, reject) => {
+        if (value) {
+            resolve('success data')
+
+        }
+        else {
+            reject('error message')
+        }
+
+    })
+}
+
+doSomthing(true)
+    .then(data => console.log(data))
+    .catch(err => console.log(err))
 
 
 const getRequest = (endpoint, cb) => {
