@@ -15,7 +15,7 @@ const listPosts = async () => {
       </a>
         `
     output.innerHTML += template
-  });
+  })
 
 }
 
